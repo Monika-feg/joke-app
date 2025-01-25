@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background = "#000000"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/joke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joke"
+        android:textSize="18sp"
+        android:textColor = "#FFFFFF"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/buttonGetJoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Get Joke" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColor = "#FFFFFF"
+        android:visibility="gone" />  <!-- Osynlig till en början -->
+
+    <Button
+        android:id="@+id/buttonShowAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Answer"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" /> <!-- Osynlig till en början -->
+</LinearLayout>
